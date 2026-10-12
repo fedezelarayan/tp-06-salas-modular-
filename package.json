@@ -1,0 +1,37 @@
+{
+  "name": "tp-06-salas-modular",
+  "version": "1.0.0",
+  "description": "Reservas de salas de estudio - refactorización modular",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:local": "node --env-file=.env src/index.js",
+    "format": "prettier --write src",
+    "format:check": "prettier --check src",
+    "lint": "eslint src",
+    "check": "npm run format:check && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedezelarayan/tp-06-salas-modular.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fedezelarayan/tp-06-salas-modular/issues"
+  },
+  "homepage": "https://github.com/fedezelarayan/tp-06-salas-modular#readme",
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "express-ejs-layouts": "^2.5.1",
+    "morgan": "^1.12.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.12.0",
+    "prettier": "^3.9.10"
+  }
+}
